@@ -1,1 +1,50 @@
-/* placeholder */
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    background: #273e5f;
+    font-family: 'Courier New', monospace;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    width: 317px;
+    height: 26px;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.linkOne {
+    font-size: 18px;
+    color: #E5E7EB;
+    height: 26px;
+    padding-top: 18px;
+    padding-left: 25px;
+    margin-left: 600px;
+}
+
+.linkTwo {
+    font-size: 18px;
+    color: #E5E7EB;
+    height: 26px;
+    padding-top: 18px;
+    padding-left: 25px;
+}
+
+.linkThree {
+    font-size: 18px;
+    color: #E5E7EB;
+    height: 26px;
+    padding-top: 18px;
+    padding-left: 25px;
+    margin-right: 20px;
+}
+
+.mainText {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    height: 50px;
+    width: 450px;
+}
