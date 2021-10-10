@@ -1,50 +1,43 @@
+
 .header {
+    height: 60px;
+    width: 100vw;
     display: flex;
-    flex-wrap: wrap;
-    height: 400px;
-    background: #273e5f;
-    font-family: 'Courier New', monospace;
+    background-color: #24426b;
+    font-family: Arial, Helvetica, sans-serif;
+    /*border: solid black;*/
 }
 
 .logo {
-    font-size: 24px;
+    height: 60px;
+    width: 49vw;
+    font-size: 48px;
     color: #F9FAF8;
-    width: 317px;
-    height: 26px;
-    padding-left: 20px;
-    padding-top: 15px;
+    /*border: solid blue;*/
 }
 
-.linkOne {
+.links {
+    height: 60px;
+    width: 49vw;
+    display: inline-flex;
     font-size: 18px;
-    color: #E5E7EB;
-    height: 26px;
-    padding-top: 18px;
-    padding-left: 25px;
-    margin-left: 600px;
+    color: #E5E7E8;
+    flex-direction: row-reverse;
+    /*border: solid red;*/
+}
+
+.linkOne, 
+.linkTwo, 
+.linkThree {
+    height: 30px;
+    width: 100px;
+    margin: 5px;
+    /*border: solid green;*/
 }
 
 .linkTwo {
-    font-size: 18px;
-    color: #E5E7EB;
-    height: 26px;
-    padding-top: 18px;
-    padding-left: 25px;
+    padding-left: 10px;
 }
 
-.linkThree {
-    font-size: 18px;
-    color: #E5E7EB;
-    height: 26px;
-    padding-top: 18px;
-    padding-left: 25px;
-    margin-right: 20px;
-}
 
-.mainText {
-    font-size: 48px;
-    font-weight: bold;
-    color: #F9FAF8;
-    height: 50px;
-    width: 450px;
-}
+
