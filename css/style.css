@@ -13,6 +13,7 @@
     width: 49vw;
     font-size: 48px;
     color: #F9FAF8;
+    padding-left: 150px;
     /*border: solid blue;*/
 }
 
@@ -39,5 +40,7 @@
     padding-left: 10px;
 }
 
-
+.linkThree {
+    padding-right: 150px;
+}
 
