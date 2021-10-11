@@ -62,7 +62,7 @@
 }
 
 .text {
-    font-size: 18px;
+    font-size: 16px;
     color: #E5E7E8;
     width: 550px;
     padding-left: 150px;
@@ -106,4 +106,27 @@
     border: 3px solid #3385ff;
     border-radius: 10px;
     margin: 20px;
+}
+
+.quote {
+    height: 250px;
+    width: 100vw;
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+}
+
+.quote-text {
+    width: 60vw;
+    height:150px;
+    margin-top:  50px;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.citation {
+    margin-left: 975px;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: bold;
 }
