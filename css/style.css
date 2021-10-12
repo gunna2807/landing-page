@@ -35,11 +35,11 @@
 }
 
 .linkTwo {
-    padding-left: 10px;
+    padding-left: 10px;style="background-color: rgb(80, 110, 207);
+    color: white; font-size: 16px; width: 90px;"
 }
 
-.linkThree {
-    padding-right: 150px;
+.linkThree {test
 }
 
 .main {
@@ -72,7 +72,8 @@
     width: 49vw;
     align-items: center;
     padding-left: 75px;
-    display: inline-flex;
+    display: inline-flex;style="background-color: rgb(80, 110, 207);
+    color: white; font-size: 16px; width: 90px;"
 }
 
 .random {
@@ -159,4 +160,22 @@
     margin-top: 60px;
     display: inline-flex;
     flex-direction: row-reverse;
+}
+
+button {
+    background-color: rgb(80, 110, 207);
+    border: solid 2px whitesmoke;
+    border-radius: 5px;
+    font-size: 16px;
+    color: whitesmoke;
+    width: 100px;
+}
+
+.footer {
+   height: 55px;
+   width: 100vw; 
+   display: flex;
+   background-color: #24426b;
+   color: whitesmoke;
+   justify-content: center;
 }
